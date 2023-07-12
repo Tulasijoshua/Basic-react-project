@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100%;
+    padding: 5rem;
+    background-image:linear-gradient(to left, rgba(0,0,0,0.5), rgba(0,0,0,0.6)),  url(../src/img/main-img/bg-img.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.home-container {
+    width: 50%;
+    padding: 3.1rem 0;
+}
+
+.home-message {
+    font-family: 'Raleway', sans-serif;
+    font-size: 3rem;
+    font-weight: 800;
+    color: #fff;
+    line-height: 1.2;
+    margin-bottom: 1.4rem;
+}
+
+.btn {
+    background: #edd81e;
+    padding: .8rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Business cards */
+.business {
+    width: 100%;
+    padding: 5rem 0;
+}
+
+.cards {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.business-card_item {
+    width: 230px;
+    box-shadow: 0 0.3rem 1rem rgba(14, 14, 14, 0.2);
+    text-align: center;
+    margin-right: 20px;
+}
+
+.business-card_img {
+    width: 230px;
+}
+
+.business-card_img img {
+    width: 100%;
+}
+
+.business-card_item p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 1rem 1rem 1.5rem 1rem;
+}
+
+@media screen and (max-width: 1025px) {
+    .home-message {
+        font-size: 2.5rem;
+        margin-bottom: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .main {
+        width: 100%;
+        padding: 7rem 2rem;
+    }
+
+    .home-container {
+        width: 70%;
+        padding: 3.1rem 0;
+    }
+    
+    .home-message {
+        font-size: 2.5rem;
+        margin-bottom: 1.2rem;
+        line-height: 1.5;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main {
+        padding: 3rem 1.5rem;
+    }
+
+    .home-container {
+        width: 100%;
+        padding: 3.1rem 0;
+    }
+
+    .home-message {
+        font-family: 'Raleway', sans-serif;
+        font-size: 1.2rem;
+        letter-spacing: 1;
+        font-weight: 700;
+        color: #fff;
+        line-height: 1.2;
+        margin-bottom: 1.4rem;
+    }
+    
+    .btn {
+        background: #edd81e;
+        padding: .6rem;
+        border: none;
+        border-radius: 5px;
+        font-size: 12px;
+    }
+
+    .business {
+        width: 100%;
+        padding: 2rem 0;
+    }
+
+    .cards {
+        width: 100%;
+        margin: 0 auto;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .business-card_item {
+        width: 70%;
+        margin: 1rem auto;
+        box-shadow: 0 0.3rem 1rem rgba(14, 14, 14, 0.2);
+        text-align: center;
+        /* margin-right: 20px; */
+    }
+
+    .business-card_img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .main {
+        padding: 3rem 1.5rem;
+    }
+
+    .home-container {
+        width: 100%;
+        padding: 1.5rem 0;
+    }
+
+    .business-card_item {
+        width: 100%;
+        margin: 1rem auto;
+        box-shadow: 0 0.3rem 1rem rgba(14, 14, 14, 0.2);
+        text-align: center;
+        /* margin-right: 20px; */
+    }
+}

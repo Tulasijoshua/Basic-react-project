@@ -1,0 +1,96 @@
+.vision {
+    width: 100%;
+    /* padding: 5rem 0; */
+    margin-bottom: 5rem;
+}
+
+.sub-vision {
+    width: 100%;
+    display: flex;
+}
+
+.leftV-sider {
+    width: 15%;
+}
+
+/* .about-heading {
+    width: 80%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    margin: 0 auto;
+    padding-left: 2rem;
+    text-transform: uppercase;
+} */
+
+.mainV-section {
+    width: 100%;
+    display: flex;
+}
+
+.our-vision {
+    font-family: 'Calibri', sans-serif;
+    margin-right: 2.5rem;
+}
+
+.our-vision h3 {
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.our-vision p {
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+.our-mission {
+    font-family: 'Calibri', sans-serif;
+    margin-right: 2.5rem;
+}
+
+.our-mission h3 {
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.our-mission p {
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+.rightV-sider {
+    width: 15%;
+    background: #000;
+    /* margin-bottom: 1.5rem; */
+}
+
+@media screen and (max-width: 1024px) {
+    .vision {
+        margin: 2rem auto;
+        padding: 0 2rem;
+    }
+
+    .our-mission {
+        margin-right: 0;
+    }
+
+    .leftV-sider,
+    .rightV-sider {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .mainV-section {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .our-mission {
+        margin: 1.5rem 0 .5rem 0;
+    }
+
+    .our-vision {
+        margin: 1.5rem 0 .5rem 0;
+    }
+}
